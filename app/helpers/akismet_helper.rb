@@ -1,0 +1,2 @@
+module AkismetHelper
+end

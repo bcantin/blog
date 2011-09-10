@@ -1,0 +1,18 @@
+<div class="sidebar">
+	<div class="block-content" id="intro">
+		<h2>About Brad</h2>
+		<p>Brad has been hacking away at Ruby since 2007 and loving it ever since.</p>
+	</div><!--block-content-->
+	
+	<div class="block-content"  id="search">
+		<%= link_to "Previous Posts", archives_path %>
+		
+		<form method="get" action="http://www.google.com/search">
+			<fieldset>
+				<input name="q" type="text"/>
+				<input name="sitesearch" value="http://domain.com/blog" type="hidden"/>
+			</fieldset>
+		</form>
+	</div><!--block-content-->
+	
+</div><!--sidebar-->
