@@ -21,7 +21,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: blogcast_prod
-  username: bcantin
-  password: 
+  database: ec2-107-20-239-110.compute-1.amazonaws.com
+  username: kqaeimeyxb
+  password: KaqB6SLSqeynNvm4z205
   port: 5432
+
