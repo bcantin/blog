@@ -142,11 +142,12 @@ body {
 }
 
 .header {
+	margin-top: 15px;
 	margin-bottom: 15px;
 
-	text-indent: -10000px;
-	background-color: #75D9EB;
-	font-size: 0.3em;
+	/*text-indent: -10000px;*/
+	/*background-color: #75D9EB;*/
+	/*font-size: 0.3em;*/
 }
 
 /*-----------------------------------------------------------
@@ -1162,8 +1163,10 @@ div.button a.disabled span {
 */
 
 pre code {
-	background: #203042;
-  color: #f8f8f8;
+	/*background: #203042;*/
+	background: #000;
+  /*color: #f8f8f8;*/
+  color: #8EEC6A;
 }
 
 pre {
