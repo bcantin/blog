@@ -7,7 +7,7 @@ class Comment < ActiveRecord::Base
   attr_accessible :name, :email, :website, :content
   rakismet_attrs :author => :name,
                  :author_email => :email,
-                 :author_url => :website
+                 :author_url => :website 
   
   def bang(current_user, request)
     #Comment properties business logic
